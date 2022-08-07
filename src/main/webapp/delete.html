@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<center><h1>Deleting Page</h1></center>
+</head>
+<style>
+    h1{
+        font-size: 40px;
+        text-align: center;
+        color: red;
+    }
+    form{
+        border: 3px blue solid;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: auto;
+    }
+    
+    center{
+        font-size: 15px;
+        font-family: "Arial Black";
+        color: blue;
+    }
+    body {
+    background-image: url("sp2.jpg");
+        background-color:pink;
+      }
+    
+</style>
+<body bgcolor="skyblue">
+<form method="post" action="DeleteServlet">
+<center>
+	    Username: <input type="text" name="username"><br><br>
+		 Password: <input type="text" name="password"><br><br>
+	
+	<input type="submit" value="Delete" class=" btn-success">
+     <input type="reset" value="clear" class=" btn-danger">
+     <a href="Home.html"><input type="button" value="Home" ></a>
+	</center>
+</form>
+</body>
+</html>

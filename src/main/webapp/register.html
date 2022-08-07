@@ -1,0 +1,46 @@
+<html>
+<head>
+<center><h1>Registration Form processing......</h1></center>  <br><br>
+</head>
+<body bgcolor="pink">
+	<form method="post" action="RegisterService">
+	<center>
+			User Name	<input type="text" name="username" /> <br><br>
+			User Password	<input type="password" name="password" /> <br><br>
+			
+		Qualification	<input type="checkbox" name="qualification" value="BSC" />BSC 
+				<input type="checkbox" name="qualification" value="MCA" />MCA  
+			<input type="checkbox" name="qualification" value="M TECH" />M TECH
+				<br><br>
+				
+		Gender		<input type="radio" name="gender" value="MALE" />MALE  
+				<input type="radio" name="gender" value="FEMALE" />FEMALE
+				<br><br>
+				
+			Technologies	<select name="technologies" size="3" multiple>
+							<option value="C">C</option>
+							<option value="C++">C++</option>
+							<option value="JAVA">JAVA</option>
+							<option value=".Net">.NET</option>
+					</select>  <br><br>
+		
+			Country Name	<select name="country">
+						<option value="india">India</option>
+						<option value="us">US</option>
+						<option value="canada">Canada</option>
+					</select>
+				<br><br>
+
+					Address:  <br><br>
+			Door no		:	<input type="text" name="addr" /> <br><br>
+			Street		:	<input type="text" name="addr" /> <br><br>
+			state 		:	<input type="text" name="addr" /> <br><br>
+			Pincode 	:	<input type="text" name="addr" /> <br><br>
+				
+	Comments :<textarea name="review" rows="4" cols="50"></textarea><br><br>
+				
+			<input type="submit" value="Register"/>
+</center>
+	</form>
+</body>
+</html>
